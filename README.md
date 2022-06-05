@@ -1,1 +1,1 @@
-# Website designed and developed for KIDOBIT by me. I developed this website back in 2017 and I recently reviewed and made some minor changes. This is a simple website that was meant for briefly and simply showcasing the goals, and misssion of a new company.
+Website designed and developed for KIDOBIT by me. I developed this website back in 2017 and I recently reviewed and made some minor changes. This is a simple website that was meant for briefly and simply showcasing the goals, and misssion of a new company.
