@@ -30,7 +30,7 @@
   }
 
   .landing {
-  background-image: url("../img/background.png");
+  background-image: url("../img/kidobit-background-purple.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -44,16 +44,16 @@
 
   .hola {
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 90px 0 0 0;
 	}
 
   .paragraph-hola {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px;
     text-align: center;
-    margin: -0;
-    color: #8b3eff;
+    margin: 0;
+    color: #fff;
   }
 
   .about {
@@ -86,7 +86,7 @@
   font-size: 28px;
   margin: 0 auto;
   color: #8b3eff;
-  padding: 20px 50px;
+  padding: 20px 200px;
   }
 
   .mission {
@@ -118,7 +118,7 @@
     font-size: 28px;
     margin: 0 auto;
     color: #8b3eff;
-    padding: 20px 50px;
+    padding: 20px 200px;
   }
 
   .approach {
@@ -150,7 +150,7 @@
     font-size: 28px;
     margin: 0 auto;
     color: #8b3eff;
-    padding: 20px 50px;
+    padding: 20px 200px;
   }
 
   .coming-soon {
@@ -245,6 +245,10 @@
       font-size: 22px;
     }
 
+    .landing {
+      padding: 100px 0;
+    }
+
     .logotype {
       max-width: 100%;
     }
@@ -252,6 +256,10 @@
     .paragraph-hola {
       font-size: 20px;
     }
+
+    .about {
+      padding: 40px 0 20px 0;
+      }
 
     .coming-text {
       font-size: 40px;
