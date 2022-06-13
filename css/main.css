@@ -35,7 +35,7 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  padding: 300px 0 300px 0;
+  padding: 160px 0;
   }
 
   .landing-text {
@@ -56,13 +56,13 @@
     color: #fff;
   }
 
-  .about {
+  .story {
 	background-color: #FFF;
 	color: #8b3eff;
   width: 100%;
 	margin: 0 auto;
-  padding: 100px 0 20px 0;
-  text-align: center;
+  padding: 100px 300px 20px 300px;
+  text-align: left;
   }
 
   .title-story {
@@ -75,41 +75,44 @@
   background: #8b3eff;
   color: #fff;
   border: 2px solid #8b3eff;
-  padding: 20px 40px;
+  padding: 20px 100px;
   text-decoration: none;
   display: inline-block;
+  border-radius: 50px;
   }
 
   .paragraph-story {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 28px;
-  margin: 0 auto;
-  color: #8b3eff;
-  padding: 20px 200px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0 auto;
+    color: #8b3eff;
+    padding: 20px 0;
+    text-align: justify;
   }
 
   .mission {
     background-color: #FFF;
     color: #8b3eff;
     margin: 0 auto;
-    padding: 20px 0 20px 0;
-    text-align: center;
+    padding: 40px 300px 20px 300px;
+    text-align: left;
     }
 
   .title-mission {
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
   }
 
   .square-mission {
-  background: #8b3eff;
-  color: #fff;
-  border: 2px solid #8b3eff;
-  padding: 20px 40px;
-  text-decoration: none;
-  display: inline-block;
+    background: #8b3eff;
+    color: #fff;
+    border: 2px solid #8b3eff;
+    padding: 20px 100px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
   }
 
   .paragraph-mission {
@@ -118,15 +121,16 @@
     font-size: 28px;
     margin: 0 auto;
     color: #8b3eff;
-    padding: 20px 200px;
+    padding: 20px 0;
+    text-align: justify;
   }
 
   .approach {
     background-color: #FFF;
     color: #8b3eff;
     margin: 0 auto;
-    padding: 20px 0 100px 0;
-    text-align: center;
+    padding: 40px 300px 100px 300px;
+    text-align: left;
     }
 
   .title-approach {
@@ -139,9 +143,10 @@
     background: #8b3eff;
     color: #fff;
     border: 2px solid #8b3eff;
-    padding: 20px 40px;
+    padding: 20px 100px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 50px;
   }
 
   .paragraph-approach {
@@ -150,7 +155,8 @@
     font-size: 28px;
     margin: 0 auto;
     color: #8b3eff;
-    padding: 20px 200px;
+    padding: 20px 0;
+    text-align: justify;
   }
 
   .coming-soon {
@@ -230,6 +236,18 @@
 
   @media (max-width: 1140px) {
 
+    .story {
+      padding: 40px 0 0 0;
+    }
+
+    .mission {
+      padding: 40px 0 0 0;
+    }
+
+    .approach {
+      padding: 40px 0 40px 0;
+    }
+
     .paragraph-story {
       padding: 0 5px;
       font-size: 22px;
@@ -243,6 +261,18 @@
     .paragraph-approach {
       padding: 0 5px;
       font-size: 22px;
+    }
+
+    .square-story {
+      padding: 10px 50px;
+    }
+
+    .square-mission {
+      padding: 10px 50px;
+    }
+
+    .square-approach {
+      padding: 10px 50px;
     }
 
     .landing {
